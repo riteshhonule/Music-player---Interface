@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sevillana&display=swap');
+
+body {
+    background-color: #79f6a5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    font-family: "Sevillana", cursive;
+    font-style: normal;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    height: 70px;
+    background-color: black;
+    color: aliceblue;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 0 10px;
+}
+#searchopt{
+   margin-left: 115vh;
+}
+#input{
+    margin-right: 30vh;
+}
+.brand img {
+     width: 60px;
+     margin: 4.5px 10px 0px 10px;
+}
+
+.logo-name{
+    font-size: 30px;
+    margin-left: -10px;
+    font-weight: bold;
+    color: #07fa07;
+}
+
+.conatiner {
+    height: 77vh;
+    padding: 20px;
+    border: 2px solid green;
+    border-radius: 20px;
+    margin: 23px auto;
+    width: 90%;
+    background-image:url("bg.jpg");
+}
+
+.COPYRIGHT{
+    color: azure;
+}
+.bottom{
+    height:100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    flex-direction: column;
+
+}
+
+
+#myProgressBar{
+    width: 100%;
+    height: 20px;
+    background-color: grey;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.fa-solid fa-play{
+    color: aliceblue;
+}
+.icons{
+    margin-top: -20px;
+    padding: 20px;
+}
+
+#ic{
+    width: 70px;
+    height: 20px;
+}
+.icons i{
+    cursor: pointer;
+}
+.prg{
+    width: 70%;
+}
+.songitem{
+    color: rgb(12, 6, 6) !important;
+    height: 40px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 55vh;
+    padding: 5px;
+    margin-top: 25px;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.songitem img{
+    border-radius: 25px;
+    height: 35px;
+}
+
+.song-name{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+#ic{
+margin-left: 40px;
+font-size: 25px;
+}
+.timestamp{
+    margin: 0 30px;
+}
